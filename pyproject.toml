@@ -1,0 +1,23 @@
+[project]
+name = "llm-zoomcamp-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "10o0o", email = "wotjs2923@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "minsearch>=0.2.0",
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+llm-zoomcamp-2026 = "llm_zoomcamp_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
